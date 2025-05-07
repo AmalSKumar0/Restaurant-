@@ -21,7 +21,7 @@
 	.main-header .header-upper .links-box,
 	.main-menu .navigation > li,
 	.main-header .header-upper .links-box .link{
-		margin-left: 30px;
+		/*margin-left: 30px;*/
 	}
 
 	h2,
@@ -84,6 +84,10 @@
 	h1,
 	.inner-banner .inner h1{
 		font-size: 60px;
+	}
+
+	.main-header .main-box .logo-box{
+		margin-left:0px;
 	}
 
 	h2,
@@ -638,6 +642,14 @@
 }
 
 @media only screen and (max-width: 767px){
+
+	.main-header .link.link-btn{
+		display:none;
+	}
+	
+	.main-header .main-box{
+		flex-direction:row-reverse;
+	}
 	
 	.banner-section .swiper-button-prev,
 	.banner-section .swiper-button-next{
